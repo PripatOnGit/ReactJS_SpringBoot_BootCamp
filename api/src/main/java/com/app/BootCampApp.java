@@ -1,13 +1,13 @@
-package com.codewitharjun.fullstackbackend;
+package com.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FullstackBackendApplication {
+public class BootCampApp {
 
 	public static void main(String[] args) {
-		SpringApplication.run(FullstackBackendApplication.class, args);
+		SpringApplication.run(BootCampApp.class, args);
 	}
 
 }
